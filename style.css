@@ -3,7 +3,7 @@
   }
   
   body {
-    font-family: 'Open Sans', semibold;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .header {
@@ -13,7 +13,7 @@
   }
   
   .container {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 55px;
     padding-right: 55px;
@@ -111,10 +111,11 @@
     font-family: 'Open Sans', semibold;
 }
 
-.slide {
-    width:1440px;
+.section1 {
     height: 670px;
     background: url(Blog/main_slide.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .heading {
     position: absolute;
